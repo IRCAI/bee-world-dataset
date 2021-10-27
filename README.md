@@ -1,5 +1,8 @@
 # INSTRUCTIONS TO THE PARTICIPANTS
 
+## What data does this repository contain?
+This repository contains a dataset that has relevant metadata relating to majority of the educational resources indexed in the Bee World challenge.
+
 ## Where to search and access the data?
 Data can be downloaded directly from the the repository (see "dataset.csv" file).
 In order to facilitate search and the development of web-based solutions, we indexed the content on an Elastic Search instance. You can access it through the following endpoint and authentication token:
