@@ -20,17 +20,15 @@ Data relates to multiple documents and resources related to apiculture. We index
 The data was indexed on ElasticSearch. Please check the [reference documentation](https://www.elastic.co/guide/en/app-search/current/api-reference.html) for code samples. Below we provide a CURL sample search, and a sample result.
 
 ### CURL example
-        curl -X POST 'https://cebele.ent.eu-central-1.aws.cloud.es.io:443/api/as/v1/engines/cebele/search' -H 'Content-Type: application/json' -H 'Authorization: Bearer search-14oev2nyfrcdiz28t37aeiws' -d '{
-  "query": "apiturizem"
-}'
+    curl -X POST 'https://cebele.ent.eu-central-1.aws.cloud.es.io:443/api/as/v1/engines/cebele/search' -H 'Content-Type: application/json' -H 'Authorization: Bearer search-14oev2nyfrcdiz28t37aeiws' -d '{"query": "apiturizem"}'
 
 ### Sample result
-        {
+    {
         "challenge_desc": "\"A. Geografska koordinata lokacije in tip \u010debelnjaka (Trikotnik - registrirani stacionarni",
         "challenge_label": "A",
         "menu_hierarchy": "(meni Domov / \u010cebelarstvo / Vzreja matic)",
         "number": "1",
         "source_type": "spletna stran",
         "url": "https://www.czs.si/content/D57"
-        }
+    }
 
